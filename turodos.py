@@ -4,7 +4,7 @@ import os
 import time
 import socket
 import random
-#Code Time
+
 from datetime import datetime
 now = datetime.now()
 hour = now.hour
@@ -20,7 +20,7 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 
-# TURBO DOS ASCII Art Logo
+# TURO DOS Logo
 print("\033[96m" + "=" * 50)
 print("\033[95m")
 print("████████╗██╗   ██╗██████╗  ██████╗      ██████╗  ██████╗ ███████╗")
@@ -58,7 +58,7 @@ print("\033[0m")
 print("\033[93m" + "Initializing Attack Sequence..." + "\033[0m")
 print()
 
-# Turbo loading animation
+# Turo loading animation
 loading_chars = ["⣾", "⣽", "⣻", "⢿", "⡿", "⣟", "⣯", "⣷"]
 for i in range(24):
     sys.stdout.write(f"\r\033[94m[{loading_chars[i % 8]}] Initializing TURBO Mode... {int((i+1)/24*100)}%\033[0m")
